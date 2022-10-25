@@ -19,6 +19,16 @@ logNumbers();
 // Get Even
 ////////////////////////////////
 
+const getEven = () => {
+    for(let i = 0; i <= 200; i ++){
+        // i == 101
+        if(i % 2 == 0 && i !== 0) {
+            console.log(i)
+        }
+    }
+}
+getEven();
+
 // function 2
 // commit the changes to github
 
